@@ -1,0 +1,11 @@
+Problem 1
+create table PRODUCT_MASTER(PRODUCTNO Varchar(6),DESCRIPTION Varchar(15), PROFITPERCENT decimal(4,2),UNITMEASURE Varchar(10),QTYONHAND integer(8), REORDERLVL integer(8), SELLPRICE decimal(8,2),COSTPRICE decimal(8,2));
+
+Problem 2
+create table CLIENT_MASTER(CLIENTNO varchar(6),NAME varchar(20),ADDRESS1 varchar(30), ADDRESS2 varchar(30),CITY varchar(15),PINCODE integer(8),STATE varchar(15),BALDUE decimal(10,2));
+
+Problem 3
+create table SALESMAN_MASTER(SALESMANNO varchar(6),SALESMANNAME varchar(20),ADDRESS1 varchar(30),ADDRESS2 varchar(30),CITY varchar(15),PINCODE integer(8),STATE varchar(15));
+
+Problem 4
+create table STUDENT(SNO integer(5),SNAME varchar(20),AGE integer(5),SDOB date,SMARK1 decimal(4,2),SMARK2 decimal(4,2),SMARK3 decimal(4,4));
